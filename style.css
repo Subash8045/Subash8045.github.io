@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(222, 221, 221);
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#nav > h1{
+    font-family: 'Lobster', cursive; 
+    letter-spacing: 1px;  
+    
+}
+.menu{
+    text-decoration: none;
+    margin-right: 25px;
+    color: black;
+    font-weight: bolder;
+}
+#con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px ;
+    flex-wrap: wrap;
+}
+
+#main{
+    height: 550px;
+    background-color: white;
+    width: 80%;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+#sub{
+    height: 300px;
+    background-color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:30px ;
+    background-color: rgb(56, 50, 50);
+    -webkit-box-shadow: 6px 10px 6px -6px #777;
+    -moz-box-shadow: 6px 10px 6px -6px #777;
+    box-shadow: 6px 10px 6px -6px #777;
+    
+}
+
+#message{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:15px;
+    resize:vertical;
+    width: 90%;
+}
+#main > div > h2{
+    margin-left: 20px ;
+}
+
+#key-con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#key{
+    height: 40px;
+    font-size: 18px;
+    
+}
+#encrypt_div{
+    display: flex;
+    align-items: center;
+}
+#norm{
+    margin-left: 5px;
+}
+#cal{
+    width:150px;
+    height: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color:white;
+    transition: .4s;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    background-color: rgb(56, 50, 50);
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 0 10px 6px -6px #777;
+    background-position: center;
+    transition: background 0.8s;
+
+}
+#ciph{
+    height: 100px;
+    background-color: rgb(200, 199, 199);
+    margin: 15px;
+    width: 90%;
+}
+#icn{
+    display: flex;
+    align-items: center;
+}
+#ciph > h3{
+    margin-left: 5px ;
+}
+
+#icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(56, 50, 50);
+    box-shadow: 0 10px 6px -6px #777;
+    margin-left : 5px;
+    color:white;
+    font-weight: 800;
+    font-size: 19px;
+    border-radius: 6px;
+}
+#C{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+#crypto{
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(56, 50, 50);
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 6px;
+    color:white;
+    letter-spacing: 1px;
+}
+#crypto > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+#about{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Lobster', cursive; 
+}
+#contact{
+    font-family: 'Lobster', cursive; 
+}
+
+.nav_con{
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+.nav_con1{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(164, 163, 163);
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+
+}
+#in{
+    display: inline;
+}
+
+#footer{
+    width:100%;
+    background-color: #777;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto ;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+   
+}
+#encrypt:active{
+    background-color: #777;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.menu:hover{
+    display: inline-block;
+    
+}
+
+#cal:hover {
+    background: black radial-gradient(circle, transparent 1%, black 1%) center/15000%;
+  }
+#cal:active {
+    background-color: rgb(56, 50, 50);
+    background-size: 100%;
+    transition: background 0s;
+}
+.nav_con1:hover{
+    transform: scale(1.1);
+}
+
+#home{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 6px;
+    color:white;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+#home > h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+  
+}
+
+.menu:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+
+}
+
+#cal_txt{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+

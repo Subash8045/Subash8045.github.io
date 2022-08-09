@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CipherMe</title>
+    <link rel="stylesheet" href="C:\Users\Subash\Documents\cipher\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+    <nav id="nav">
+        <h1>Cipher Me</h1>
+        <div>
+            <a class = "menu"  href="#about">About </a>
+            <a class = "menu"  href="#footer">Contact us</a>
+        <div id = "crypto">
+            <h3>CRYPTO</h3>
+        </div>
+        </div>
+    </nav>
+    <hr class="solid">
+    <div id="con">
+        <div id="main">
+            <div id="icn">
+            <div id="icon">
+                <h3 id="C">C</h3>
+            </div>
+            <h2 id = "ciph_text">Ceasar Cipher</h2>
+            </div>
+            <textarea  placeholder="Text" name="Message" id="message" cols="75" rows="10"></textarea>
+            <div id="key-con">
+                <input placeholder="Key" id="key" type="text">
+                <div id ="encrypt_div">
+                    <input type="checkbox" name="" id="encrypt" checked>
+                    <h4 id ="norm">Encrypt</h4>
+                </div>
+                <button id="cal">calculate</button>
+            </div>
+            <div id="ciph">
+                <h3>Calculated Text</h3>
+                <p id ="cal_txt"></p>
+            </div>
+            
+
+        </div>       
+        <div id="sub">
+            <button id="b1" class="btn">Caesar</button>
+            <button id="b2" class="btn">Atbash</button>
+            <button id="b3" class="btn">Vernam</button>
+            <button id="b4" class="btn">Vigenere</button>
+            <button id="b5" class="btn">Railfence</button>
+        </div>
+    </div>
+
+    <h2  id="about">
+        About
+    </h2>
+    <div class="nav_con">
+    <div class="nav_con1">
+    <h1>About</h1>
+    <p>
+        <br>This is the web application which allows
+        you both cipher and decipher using differnt
+        popular algorithms like Ceasar , Vernam , Playfair ,
+        Vigenere , Railfenece.<br><br>You enter the message or cipher
+        text in Text input and key in Key input and then Press calculate
+        and see the Output!!
+    </p>
+    </div>
+    <div class="nav_con1">
+        <h1>Ceasar Cipher</h1>
+        <p>
+            <br>It is a type of substitution cipher in
+             which each letter in the plaintext is replaced by a letter some fixed number 
+             of positions down the alphabet
+             <br><br>
+             The Caesar cipher is named after Julius Caesar, who, according to Suetonius, used it with a shift of three
+             to protect messages of military significance
+            
+        </p>
+    </div>
+    <div class="nav_con1">
+        <h1>Atbas Cipher</h1>
+        <p>
+            <br> simple substitution cipher in which each occurrence of the first letter of the alphabet is substituted with the last, second with next to last, and so on
+        </p>
+    </div>
+    </div>
+    <div class="nav_con">
+    <div class="nav_con1">
+        <h1>Vigenere Cipher</h1>
+        <p>
+            <br>
+            Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution alphabets. The encryption of the original text is done using the Vigenère square or Vigenère table
+        </p>
+    </div>
+    <div class="nav_con1">
+        <h1>Vernam Cipher</h1>
+        <p>
+            <br>
+            Vernam Cipher is a method of encrypting alphabetic text. It is one of the Substitution techniques for converting plain text into cipher text. In this mechanism we assign a number to each character of the Plain-Text
+        </p>
+    </div>
+    <div class="nav_con1">
+        <h1>Railfence Cipher</h1>
+        <p>
+            <br>
+            In the rail fence cipher, the plaintext is written downwards diagonally on successive "rails" of an imaginary fence, then moving up when the bottom rail is reached, down again when the top rail is reached, and so on until the whole plaintext is written out. The ciphertext is then read off in rows. 
+        </p>
+    </div>
+    </div>
+    <h1 id="contact">Contact Us</h1>
+    <div id ="footer" >
+        <a href="#" class="fa fa-facebook">facebook</a>
+        <a href="#" class="fa fa-linkedin">linkedin</a>
+        <a href="#" class="fa fa-instagram">instagram</a>
+        <a href="#" class="fa fa-github">github</a>
+        <a id = "home"href="#nav"><h3>Home</h3></a>
+    </div>
+
+<script src="C:\Users\Subash\Documents\cipher\script.js"></script>
+</body>
+</html>
